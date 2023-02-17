@@ -10,7 +10,8 @@ suite.addTest(unittest.makeSuite(TestLogin))
 suite.addTest(unittest.makeSuite(TestApprove))
 suite.addTest(unittest.makeSuite(TestRecharge))
 
-report = app.BASE_DIR + f"/report/report-{time.strftime('%Y-%m-%d %H_%M_%S')}.html"
+# report = app.BASE_DIR + f"/report/report-{time.strftime('%Y-%m-%d %H_%M_%S')}.html"
+report = app.BASE_DIR + "/report/report.html"
 
 with open(report, 'wb')as f:
     runner = HTMLTestRunner(f, title="P2P项目测试报告")

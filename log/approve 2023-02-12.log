@@ -1,0 +1,5 @@
+2023-02-12 18:17:12,351 INFO [approve] [approve.py(test001_approve_realname_params_all:32)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-12 18:17:12,452 INFO [approve] [approve.py(test001_approve_realname_params_all:37)] - login msg = {'status': 200, 'data': {'card_id': '140****203', 'realname': '李**'}, 'description': '提交成功!'}
+2023-02-12 18:17:12,555 INFO [approve] [approve.py(test002_get_approve:44)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-12 18:17:12,761 INFO [approve] [approve.py(test003_trust_approve:54)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-12 18:17:13,077 INFO [approve] [approve.py(test003_trust_approve:60)] - approve msg = UserRegister OK

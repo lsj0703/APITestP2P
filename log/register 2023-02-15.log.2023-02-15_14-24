@@ -1,0 +1,4 @@
+2023-02-15 14:24:03,716 INFO [register] [login.py(test001_get_img_code:43)] - register msg = <Response [200]>
+2023-02-15 14:24:03,819 INFO [register] [login.py(test001_get_img_code:43)] - register msg = <Response [200]>
+2023-02-15 14:24:03,921 INFO [register] [login.py(test001_get_img_code:43)] - register msg = <Response [404]>
+2023-02-15 14:24:04,023 INFO [register] [login.py(test001_get_img_code:43)] - register msg = <Response [400]>

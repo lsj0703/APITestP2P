@@ -1,0 +1,10 @@
+2023-02-10 12:07:51,583 INFO [login] [login.py(test011_login_success:135)] - login msg = {'status': 100, 'description': '验证码错误!'}
+2023-02-10 12:08:35,349 INFO [login] [login.py(test011_login_success:135)] - login msg = {'status': 100, 'description': '验证码不能为空!'}
+2023-02-10 12:11:18,091 INFO [login] [login.py(test011_login_success:135)] - login msg = {'status': 100}
+2023-02-10 12:11:47,347 INFO [login] [login.py(test011_login_success:135)] - login msg = {'status': 100}
+2023-02-10 12:13:01,675 INFO [login] [login.py(test011_login_success:135)] - login msg = {'status': 100}
+2023-02-10 12:14:07,792 INFO [login] [login.py(test011_login_success:135)] - login msg = {'status': 100}
+2023-02-10 12:15:06,081 INFO [login] [login.py(test011_login_success:135)] - login msg = {'status': 100}
+2023-02-10 12:20:00,239 INFO [login] [login.py(test011_login_success:135)] - login msg = {'status': 100}
+2023-02-10 12:21:56,224 INFO [login] [login.py(test011_login_success:135)] - login msg = {'status': 100}
+2023-02-10 12:22:55,136 INFO [login] [login.py(test011_login_success:135)] - login msg = {'status': 200, 'description': '登录成功'}

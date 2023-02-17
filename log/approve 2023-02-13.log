@@ -1,0 +1,2 @@
+2023-02-13 21:42:46,882 INFO [approve] [approve.py(test001_approve_realname_params_all:32)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-13 21:42:46,982 INFO [approve] [approve.py(test001_approve_realname_params_all:37)] - login msg = {'status': 200, 'data': {'card_id': '140****203', 'realname': '李**'}, 'description': '提交成功!'}

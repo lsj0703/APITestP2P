@@ -1,0 +1,14 @@
+   2023-02-16 17:35:07,638 INFO [register] [login.py(test001_get_img_code:43)] - register msg = <Response [200]>
+2023-02-16 17:35:07,781 INFO [register] [login.py(test001_get_img_code:43)] - register msg = <Response [200]>
+2023-02-16 17:35:07,947 INFO [register] [login.py(test001_get_img_code:43)] - register msg = <Response [404]>
+2023-02-16 17:35:08,150 INFO [register] [login.py(test001_get_img_code:43)] - register msg = <Response [400]>
+2023-02-16 17:39:15,082 INFO [register] [login.py(test001_get_img_code:43)] - register msg = 获取图片验证码-参数为随机小数<Response [200]>
+2023-02-16 17:39:15,249 INFO [register] [login.py(test001_get_img_code:43)] - register msg = 获取图片验证码-参数为随机整数<Response [200]>
+2023-02-16 17:39:15,385 INFO [register] [login.py(test001_get_img_code:43)] - register msg = 获取图片验证码-参数为空<Response [404]>
+2023-02-16 17:39:15,484 INFO [register] [login.py(test001_get_img_code:43)] - register msg = 获取图片验证码-参数为字母<Response [400]>
+2023-02-16 17:39:15,860 INFO [register] [login.py(test002_register:59)] - register msg = 输入全部必填参数-注册成功{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2023-02-16 17:39:16,167 INFO [register] [login.py(test002_register:59)] - register msg = 输入全部参数-注册成功{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2023-02-16 17:39:16,515 INFO [register] [login.py(test002_register:59)] - register msg = 输入重复手机号码-注册失败{'status': 100, 'description': '手机已存在!'}
+2023-02-16 17:39:16,890 INFO [register] [login.py(test002_register:59)] - register msg = 输入密码为空-注册失败{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2023-02-16 17:39:17,328 INFO [register] [login.py(test002_register:59)] - register msg = 输入验证码错误-注册失败{'status': 100, 'description': '验证码错误!'}
+2023-02-16 17:39:17,536 INFO [register] [login.py(test002_register:59)] - register msg = 输入短信验证码错误-注册失败{'status': 100, 'description': '验证码错误'}

@@ -1,0 +1,2 @@
+2023-02-12 15:06:01,237 INFO [approve] [approve.py(test003_trust_approve:56)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-12 15:06:01,566 INFO [approve] [approve.py(test003_trust_approve:62)] - approve msg = UserRegister OK

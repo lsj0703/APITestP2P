@@ -1,0 +1,84 @@
+{
+  "test_register": [
+    {
+      "desc": "输入全部必填参数-注册成功",
+      "phone": "13012341124",
+      "pwd": "qwer1234",
+      "verifycode": "8888",
+      "phone_code": "666666",
+      "dy_server": "on",
+      "invite_phone": "",
+      "status_code": 200,
+      "status": 200,
+      "description": "注册成功"
+    },
+    {
+      "desc": "输入全部参数-注册成功",
+      "phone": "13012341125",
+      "pwd": "qwer1234",
+      "verifycode": "8888",
+      "phone_code": "666666",
+      "dy_server": "on",
+      "invite_phone": "13085209630",
+      "status_code": 200,
+      "status": 200,
+      "description": "注册成功"
+    },
+    {
+      "desc": "输入重复手机号码-注册失败",
+      "phone": "13012341111",
+      "pwd": "qwer1234",
+      "verifycode": "8888",
+      "phone_code": "666666",
+      "dy_server": "on",
+      "invite_phone": "",
+      "status_code": 200,
+      "status": 100,
+      "description": "手机已存在"
+    },{
+      "desc": "输入密码为空-注册失败",
+      "phone": "13012341126",
+      "pwd": "",
+      "verifycode": "8888",
+      "phone_code": "666666",
+      "dy_server": "on",
+      "invite_phone": "",
+      "status_code": 200,
+      "status": 100,
+      "description": "密码不能为空"
+    },{
+      "desc": "输入手机号码为空-注册失败",
+      "phone": "",
+      "pwd": "qwer1234",
+      "verifycode": "8888",
+      "phone_code": "666666",
+      "dy_server": "on",
+      "invite_phone": "",
+      "status_code": 200,
+      "status": 100,
+      "description": "注册失败"
+    },{
+      "desc": "输入验证码错误-注册失败",
+      "phone": "13012341127",
+      "pwd": "qwer1234",
+      "verifycode": "888",
+      "phone_code": "666666",
+      "dy_server": "on",
+      "invite_phone": "",
+      "status_code": 200,
+      "status": 100,
+      "description": "验证码错误"
+    },{
+      "desc": "输入短信验证码错误-注册失败",
+      "phone": "13012341128",
+      "pwd": "qwer1234",
+      "verifycode": "8888",
+      "phone_code": "66666",
+      "dy_server": "on",
+      "invite_phone": "",
+      "status_code": 200,
+      "status": 100,
+      "description": "验证码错误"
+    }
+  ]
+}

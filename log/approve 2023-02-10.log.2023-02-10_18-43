@@ -1,0 +1,16 @@
+2023-02-10 18:03:35,336 INFO [approve] [approve.py(test002_get_approve:48)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-10 18:08:20,524 INFO [approve] [approve.py(test002_get_approve:46)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-10 18:16:16,282 INFO [approve] [approve.py(test003_trust_approve:56)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-10 18:17:26,222 INFO [approve] [approve.py(test003_trust_approve:56)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-10 18:20:00,234 INFO [approve] [approve.py(test003_trust_approve:56)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-10 18:20:30,339 INFO [approve] [approve.py(test003_trust_approve:56)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-10 18:22:51,653 INFO [approve] [approve.py(test001_approve_realname_params_all:34)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-10 18:22:51,756 INFO [approve] [approve.py(test001_approve_realname_params_all:39)] - login msg = {'status': 200, 'data': {'card_id': '140****203', 'realname': '李**'}, 'description': '提交成功!'}
+2023-02-10 18:22:51,857 INFO [approve] [approve.py(test002_get_approve:46)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-10 18:22:52,063 INFO [approve] [approve.py(test003_trust_approve:56)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-10 18:28:53,130 INFO [approve] [approve.py(test003_trust_approve:56)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-10 18:28:59,171 INFO [approve] [approve.py(test003_trust_approve:56)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-10 18:34:37,813 INFO [approve] [approve.py(test003_trust_approve:56)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-10 18:38:27,295 INFO [approve] [approve.py(test003_trust_approve:56)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-10 18:39:23,615 INFO [approve] [approve.py(test003_trust_approve:56)] - login msg = {'status': 200, 'description': '登录成功'}
+2023-02-10 18:43:53,547 INFO [approve] [approve.py(test003_trust_approve:56)] - login msg = {'status': 200, 'description': '登录成功'}

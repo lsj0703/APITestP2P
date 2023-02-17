@@ -1,0 +1,9 @@
+2023-02-10 10:01:14,924 INFO [register] [login.py(test01_get_img_code_random_float:33)] - register msg = <Response [200]>
+2023-02-10 10:01:15,009 INFO [register] [login.py(test02_get_img_code_random_int:40)] - register msg = <Response [200]>
+2023-02-10 10:01:15,086 INFO [register] [login.py(test03_get_img_code_empty:48)] - register msg = <Response [404]>
+2023-02-10 10:01:15,172 INFO [register] [login.py(test04_get_img_code_random_letter:56)] - register msg = <Response [400]>
+2023-02-10 10:01:15,307 INFO [register] [login.py(test05_get_msg_code_success:68)] - register msg = {'status': 200, 'description': '短信发送成功'}
+2023-02-10 10:01:15,419 INFO [register] [login.py(test06_get_msg_code_fail_img_code_error:78)] - register msg = {'status': 100, 'description': '图片验证码错误'}
+2023-02-10 10:01:15,532 INFO [register] [login.py(test07_get_msg_code_fail_img_code_empty:88)] - register msg = {'status': 100, 'description': '图片验证码错误'}
+2023-02-10 10:01:15,653 INFO [register] [login.py(test08_get_msg_code_fail_phone_empty:98)] - register msg = {'status': 100}
+2023-02-10 10:01:15,811 INFO [register] [login.py(test09_register_success:113)] - register msg = {'status': 100, 'description': '手机已存在!'}

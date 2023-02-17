@@ -1,0 +1,2 @@
+2023-02-10 10:23:29,434 INFO [register] [login.py(test09_register_success:112)] - register msg = {'status': 100, 'description': '手机已存在!'}
+2023-02-10 10:30:24,315 INFO [register] [login.py(test010_register_success_params_required:128)] - register msg = {'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
